@@ -16,8 +16,8 @@ p = Program = program b
 ## Denotational semantics
 
 ```
-E [[n]] m = n \\
-E [[i]] m = if m(i) = (x, _) then x else ⊥ \\
+E [[n]] m = n 
+E [[i]] m = if m(i) = (x, _) then x else ⊥ 
 E[[true]]m = 1
 E[[false]]m = 0
 E [[- e]] m = -E e m
