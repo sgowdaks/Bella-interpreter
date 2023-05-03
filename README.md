@@ -28,7 +28,7 @@ E[[e1=e2]]m = Ee1m = Ee2m
 E[[e1!=e2]]m = Ee1m ≠ Ee2m 
 E[[e1≥e2]]m = Ee1m ≥ Ee2m
 E[[e1>e2]]m = Ee1m > Ee2m 
-E[[e1?e2:e3]]m=if Ee1m ≠ 0 then Ee2 m else Ee3 m
+E[[e1?e2:e3]]m = if Ee1m ≠ 0 then Ee2 m else Ee3 m
 E[[e*]]m =  Ee*m 
 E[[e1…en]]m = Let xi = Eeim in (x1....xn)
 
