@@ -8,7 +8,7 @@ uop: UnaryOp = ! | -
 bop: BinaryOp = < | <= | == | != | >= | >
 e:Expression=n|i|true|false| uop e| e1 bop e2| ie∗|e ? e1:e2 | [e*] | e[e]
 s: Statement = let i = e | func i i* = e | i = e | print e | while e b
-b: Blocl = block s*
+b: Block = block s*
 p = Program = program b  
 ```
 
